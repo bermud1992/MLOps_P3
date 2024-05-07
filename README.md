@@ -7,6 +7,7 @@
 3. INgrese a la interfaz grafica de Airflow en la direccion: http://10.43.101.151:8080/home y haga clic en el boton que dispara el DAG, si lo desea puede seguir el desarrollo de la ejecucion haciendo clic en la celda last run que ahora tiene la fecha actual del ultimo run enviado.
 
    ![alt text](https://github.com/bermud1992/MLOps_P3/blob/main/images/airflow1.png)  <br />
+   
    ![alt text](https://github.com/bermud1992/MLOps_P3/blob/main/images/airflow2.png)  
 
 Una vez esta ejecucion termine con las 3 cajas del grafo en status success el modelo estara disponible en mlflow.
@@ -18,12 +19,20 @@ Una vez esta ejecucion termine con las 3 cajas del grafo en status success el mo
  En caso de no tener modelos registrados, el procedimiento es el siguiente:
  
 ![alt text](https://github.com/bermud1992/MLOps_P3/blob/main/images/mlflowr1.png)  <br />
+
 ![alt text](https://github.com/bermud1992/MLOps_P3/blob/main/images/mlflowr2.png)  <br />
+
 ![alt text](https://github.com/bermud1992/MLOps_P3/blob/main/images/mlflowr3.png)  <br />
+
 ![alt text](https://github.com/bermud1992/MLOps_P3/blob/main/images/mlflowr4.png)  <br />
+
 ![alt text](https://github.com/bermud1992/MLOps_P3/blob/main/images/mlflowr5.png)  <br />
+
 ![alt text](https://github.com/bermud1992/MLOps_P3/blob/main/images/mlflowr6.png)  <br />
+
 ![alt text](https://github.com/bermud1992/MLOps_P3/blob/main/images/mlflowr7.png)  <br />
+
+
 ![alt text](https://github.com/bermud1992/MLOps_P3/blob/main/images/mlflowr8.png)  <br />
 
 6. ingresar a la url http://10.43.101.151:8082/ , en esta direccion se encuentra alojada la aplicacion streamlit en la cual se encuentra la siguiente interfaz grafica:
